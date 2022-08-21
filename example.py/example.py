@@ -33,6 +33,58 @@ print(data_train)
 
 feature_names = data_train.columns[1:-1]  # we skip the first and last column
 
+# initialize the model parameters
+
+variables = data_train.columns[1:-1]  # we skip the first and last column
+target_training = None
+discriminator_history = None
+sample_training = None
+sample_validation = None
+        
+
+seed = 193 #generates a random number
+discriminator_nodes =  16 # 20
+discriminator_layers = 1
+discriminator_epochs = 50
+validation_fraction = 0.4
+discriminator_dropout =  0.4
+        
+batchSize = 128 # 512
+discriminator_optimizer = SGD(lr =0.01)
+discriminator_history_array = []
+
+neural_network_input_dimension = variables.shape
+
+
+weight_train = np.reshape([random.random()/10 for i in range(len(data_train))], (len(data_train), 1))
+weight_test = np.reshape([random.random()/10 for i in range(len(data_test))], (len(data_test), 1))
+target_training = data_train["class"]
+target_validation = data_test["class"]
+sample_training = data_train[feature_names]
+sample_validation = data_test[feature_names]
+        
+# Scaling the sample data 
+scaler = StandardScaler()
+sample_training_scaled = scaler.fit_transform(sample_training)
+sample_validation_scaled = scaler.fit_transform(sample_validation)
+
+# Making the table of the data using DataFrame
+
+sample_training_scaled = DataFrame(sample_training_scaled)
+sample_validation_scaled = DataFrame(sample_validation_scaled)
+
+        # Renaming the name of the columns after scaling 
+sample_training_scaled.columns = sample_training.columns
+sample_validation_scaled.columns = sample_validation.columns
+        
+# Including the target training and validation output by adding one more column
+
+sample_training_scaled['target_training'] = target_training
+sample_validation_scaled['target_validation'] = target_validation
+        
+#print(sample_training_scaled)  # to see the data
+
+
 # Create the model 
 
 network_input = Input( shape = (neural_network_input_dimension))
