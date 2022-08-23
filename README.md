@@ -8,4 +8,4 @@ ANNs are comprised of a node layers, containing an input layer, one or more hidd
   <img src="artificial_neural_network.jpg" width="250" height="250"/>
 </p>
 
-
+The aim of constructing 
