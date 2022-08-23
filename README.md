@@ -26,7 +26,7 @@ Neural networks have also been actively used in many bioinformatics applications
 Likewise, in medical science ANNs have been extensively applied in diagosis, electronic signal analysis, radiology etc. ANNs have been used by many authors for clinical reserach. Application of ANNs are increasing in medical data mining. In agriculture Artififcial neural networks are one of the most popular tools for high production efficiency combined with a high quality products. ANNs can replace the classical methods of modelling many issuses, and are one of the main  alternatives to classical mathematical models. For a long time now, researchers from all over the world have been using thes tools to support agricultural production, making it more efficient and providing the highest quality products possible.  
 
 
-# Multi-layer Neural System
+# Multi-layer Neural Network
 
 <p align="center">
   <img src="layer.jpg" width="250" height="250"/>
