@@ -31,7 +31,7 @@ Likewise, in medical science ANNs have been extensively applied in diagosis, ele
 A multi-layer neural network contains more than one layer of artificial neurons or nodes. They differ widely in design. It is important to note that while single-layer neural networks were useful early in the evolution of AI, the vast majority of networks used today have a multi-layer model.
 
 <p align="center">
-  <img src="layer.jpg" width="250" height="250"/>
+  <img src="multi.jpg" width="250" height="250"/>
 </p>
 
 Multi-layer neural networks can be set up in numerous ways. Typically, they have at least one iput layer, which send weighted inputs series of hidden layers, and an output layer at the end. These more sophisticated setups are also assosicated with nonlinear builds using sidmoids and other function to direct the firing or activation of artificial neurons. A fully connected multi-layer neural network is called as  Multilayer Perceptron(MLP). In above figure we have two hidden layer including one input layer and output layer. Here, we have two hidden layer that's why we can say it as deep ANN. An MLP is a typical example of feedforward artificial neural network.
