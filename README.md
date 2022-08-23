@@ -28,6 +28,8 @@ Likewise, in medical science ANNs have been extensively applied in diagosis, ele
 
 # Multi-layer Neural Network
 
+A multi-layer neural network contains more than one layer of artificial neurons or nodes. They differ widely in design. It is important to note that while single-layer neural networks were useful early in the evolution of AI, the vast majority of networks used today have a multi-layer model.
+
 <p align="center">
   <img src="layer.jpg" width="250" height="250"/>
 </p>
