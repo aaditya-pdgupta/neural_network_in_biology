@@ -8,4 +8,4 @@ ANNs are comprised of a node layers, containing an input layer, one or more hidd
   <img src="../Pictures/artificial_neural_network.jpg"/>
 </p>
 
-![test](artificial_neural_network.jpg)
+![neural](artificial_neural_network.jpg)
