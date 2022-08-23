@@ -15,4 +15,4 @@ The tools for machine learning with neural networks were developed long ago, mos
 
 # Application in biology
 
-Computer technology has been advanced tremendously and the interest has been increased for the potential use of "Artificial Intelligence" in biology. ANNs use in biology seems to be an interseting field of research lately. Th application of this system in biology have a wide area. ANNs is used for the diagonis of different diseases 
+Computer technology has been advanced tremendously and the interest has been increased for the potential use of "Artificial Intelligence" in biology. ANNs use in biology seems to be an interseting field of research lately. Th application of this system in biology have a wide area. ANNs is used for the diagonis of different diseases in both palnt and animal caused due to different factors. The capacity of ANNs to analyze large amounts of data and detect patterns warrants application in analysis of medical images, calssification of tumors and prediction of survival have some how made easy resarch in biology.
