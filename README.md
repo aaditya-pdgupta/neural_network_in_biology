@@ -5,7 +5,7 @@ Neural networks, also known as artificial neural networks (ANNs) or simulated ne
 ANNs are comprised of a node layers, containing an input layer, one or more hidden layers and an output layer. Each node or artificial neuron, connects to another has an associated weight and threshold. If the output of any individual node is above the specified threshold value, that node is activated, sending data to the next layer of the next layer of the network.
 
 <p align="center">
-  <img src="artificial_neural_network.jpg" width="200" height="200"/>
+  <img src="artificial_neural_network.jpg" width="300" height="300"/>
 </p>
 
 
