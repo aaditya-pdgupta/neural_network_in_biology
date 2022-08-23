@@ -28,4 +28,6 @@ Likewise, in medical science ANNs have been extensively applied in diagosis, ele
 
 # Multi-layer Neural System
 
-
+<p align="center">
+  <img src="layer.jpg" width="250" height="250"/>
+</p>
