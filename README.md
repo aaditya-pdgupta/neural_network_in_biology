@@ -34,4 +34,6 @@ A multi-layer neural network contains more than one layer of artificial neurons 
   <img src="layer.jpg" width="250" height="250"/>
 </p>
 
-Multi-layer neural networks can be set up in numerous ways. Typically, they have at least one iput layer, which send weighted inputs series of hidden layers, and an output layer at the end. These more sophisticated setups are also assosicated with nonlinear builds using sidmoids and other function to direct the firing or activation of artificial neurons. A fully connected multi-layer neural network is called as  Multilayer Perceptron(MLP).
+Multi-layer neural networks can be set up in numerous ways. Typically, they have at least one iput layer, which send weighted inputs series of hidden layers, and an output layer at the end. These more sophisticated setups are also assosicated with nonlinear builds using sidmoids and other function to direct the firing or activation of artificial neurons. A fully connected multi-layer neural network is called as  Multilayer Perceptron(MLP). In above figure we hav etwo hidden layer icluding one input layer and output layer. Here, we have two hidden layer that's why we can say it as deep ANN. An MLP is a typical example of feedforward artificial neural network.
+
+The number of layers and the number of neurons are reffered to as 
