@@ -40,3 +40,6 @@ The number of layers and the number of neurons are reffered to as hyperparameter
 
 $$O_{k} = f_{ok}(net_{ok}) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{h} (net_{Hj}\right) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{Hj} \left(\sum_{i=1}^{n+1} v_{ji}I_{i}\right)\right)$$
 
+This type of ANN, which simply propagates the input through all the layers, is called a feed-forward multi-layer ANN. The example discussed here contains only oner hideen layer. The network architecture can be extended to contain as many hidden layer as necessary.
+
+## ANN learning
