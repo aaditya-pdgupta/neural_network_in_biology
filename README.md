@@ -42,4 +42,4 @@ $$O_{k} = f_{ok}(net_{ok}) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{h} (net_{Hj}
 
 This type of ANN, which simply propagates the input through all the layers, is called a feed-forward multi-layer ANN. The example discussed here contains only oner hideen layer. The network architecture can be extended to contain as many hidden layer as necessary.
 
-## ANN learning
+### ANN learning
