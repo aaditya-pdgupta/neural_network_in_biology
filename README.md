@@ -58,5 +58,5 @@ to summarise, the supervised learning process implies the following steps:
 
 (ii) initialisation of the loss functions.
 
-(ii)
+(ii) for each 
 
