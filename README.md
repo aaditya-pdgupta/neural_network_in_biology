@@ -59,6 +59,7 @@ to summarise, the supervised learning process implies the following steps:
 (ii) initialisation of the loss functions
 
 (ii) for each training pattern
+
       (a) calculate $H_{jp}$ and $O_{kp}$ (feed-forward phase)
       
       (b) calculate the output error and the hidden layer error
