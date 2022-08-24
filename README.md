@@ -43,3 +43,5 @@ $$O_{k} = f_{ok}(net_{ok}) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{h} (net_{Hj}
 This type of ANN, which simply propagates the input through all the layers, is called a feed-forward multi-layer ANN. The example discussed here contains only oner hideen layer. The network architecture can be extended to contain as many hidden layer as necessary.
 
 ### ANN learning
+
+The learning process for an ANN is the process through which the weights of the network are determined. This is achieved by adjusting the weights until the certain criteria are satisfied. The ANN is presented with a training dataset which contains the input vector and a target associated with each input vector. The target is the desired output. The weights of the ANN are adjusted iteratively such taht the difference between the actual output of the  
