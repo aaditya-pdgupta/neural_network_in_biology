@@ -48,7 +48,7 @@ The learning process for an ANN is the process through which the weights of the 
 
 $$Loss = -\frac{1}{N}\sum_{i}^{N}O_{i} . log \hat{O} + (1-O_{i})log(1-\hat{O_{i}})$$
 
-where $O{^}_{i}$ is the i-th scalar value in the output, $O_{i}$ is the corresponding target value, and N is the number of scalar values in the model output. For each iteration (usually called epoch), the gradient descent weight optimisation contains two phases:
+where $\hat{O_{i}}$ is the i-th scalar value in the output, $O_{i}$ is the corresponding target value, and N is the number of scalar values in the model output. For each iteration (usually called epoch), the gradient descent weight optimisation contains two phases:
 * feed-forward pass in which the output of the network is calculated with the current value of the weights, activation function and bias
 * backward propagation in which the errors of the output signal are propagated back from the output layer towards the input layer and the weights are adjusted as a function of the back-propagated errors.
 
