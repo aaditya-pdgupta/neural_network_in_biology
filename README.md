@@ -53,7 +53,10 @@ where $O{^}_{i}$ is the i-th scalar value in the output, $O_{i}$ is the correspo
 * backward propagation in which the errors of the output signal are propagated back from the output layer towards the input layer and the weights are adjusted as a function of the back-propagated errors.
 
 to summarise, the supervised learning process implies the following steps:
+
 (i) initialisation of the weights 
+
 (ii) initialisation of the loss functions.
+
 (ii)
 
