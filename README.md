@@ -58,11 +58,15 @@ to summarise, the supervised learning process implies the following steps:
 
 (ii) initialisation of the loss functions
 
-(ii) for each training pattern
+(iii) for each training pattern
 
       (a) calculate $H_{jp}$ and $O_{kp}$ (feed-forward phase)
       
       (b) calculate the output error and the hidden layer error
       
-      (c) adjust the weights $w_{kj}$ and 
+      (c) adjust the weights $w_{kj}$ and $v_{kj} (black-propagation phase)
+      
+(iv) test the stopping criteria; if this is not met then the process continues from the step(ii)
+
+As stopping criteria, common choices are a maximum number of epochs, a minimum value of the error function evaluated for the training data set, and the over-fitting point. The initialisation of the weights, the learning rate and the momentum are very important for the convergence and the efficiency of the learning process. 
 
