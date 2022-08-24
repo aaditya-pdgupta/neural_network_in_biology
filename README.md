@@ -38,5 +38,5 @@ Multi-layer neural networks can be set up in numerous ways. Typically, they have
 
 The number of layers and the number of neurons are reffered to as hyperparameters of a neural network and these need tuning. Cross validation techniques must be used to find ideal values. An example of a multi-layer is shown in figure. It contains a layer of n input neuron $I_{i}$ (i = 1,...,n), a hidden layer( $H_{m}$ ) of m neuron on $H_{j}$ with the activation function $f_{Hj}$ (j = 1,...,m) and output layer of n neuron $O_{k}$ with the activation function $f_{Ok}$ (k = 1,....,n). The activation functions can be different for different layers. The connection between the neurons are weighed with different values, $v_{ij}$ are the weights between the hidden layer and the output layer. Using these weights, the networks propagates the external signal through the layers prodeucing the output signal which is of the form $I_{i}$. 
 
-$O_{k} = f_{ok}(net_{ok}) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{h} (net_{Hj}\right)$
+$$O_{k} = f_{ok}(net_{ok}) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{h} (net_{Hj}\right) = f_{ok}\left(\sum_{j=1}^{m+1} w_{kj} f_{Hj} \left(\sum_{i=1}^{n+1} v_{ji}I_{i}\right)\right)$$
 
