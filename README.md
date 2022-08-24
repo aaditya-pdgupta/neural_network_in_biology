@@ -55,8 +55,6 @@ where, $\hat{O_{i}}$ is the i-th scalar value in the output, $O_{i}$ is the corr
 to summarise, the supervised learning process implies the following steps:
 
 (i) initialisation of the weights 
-
 (ii) initialisation of the loss functions.
-
 (ii) for each 
 
