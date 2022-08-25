@@ -69,6 +69,10 @@ Neural network has been applied widely in biology since the 1980s, and has advan
 
 Neural networks have also been actively used in many bioinformatics applications such as DNA sequence, prediction, protein secondary structure prediction, gene expresssion profiles classification and analysis of gene expression patterns. The concepts of neural network used in pattern classification and signal processing gene procesing have been sucessfully applied in bioinformatics. Neural Likewise, in medical science ANNs have been extensively applied in diagosis, electronic signal analysis, radiology etc. ANNs have been used by many authors for clinical reserach. Application of ANNs are increasing in medical data mining. In agriculture Artififcial neural networks are one of the most popular tools for high production efficiency combined with a high quality products. ANNs can replace the classical methods of modelling many issuses, and are one of the main alternatives to classical mathematical models.networks have also been applied to the analysis of gene expression patterns as an alternative to hierarchial cluster methods. Neural networks have been used in agriculture for selection of appropriate net of plant during sudden and quick changes of environmental condition and predict the result of it. Here, we use ANN to classify that the Yeast is poisonous or edible to eat based on its properties.
 
-# Classification of Yeast
+# Classification of Mushrooms
+
+A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. Mushroom is one of the fungi types food which include nutritrional content and health benefits. However, some mushroom specis are edible where as some are toxic and poisonous. 
+
+
 
 
