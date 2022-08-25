@@ -5,7 +5,7 @@ Neural networks, also known as artificial neural networks (ANNs) or simulated ne
 ANNs are comprised of a node layers, containing an input layer, one or more hidden layers and an output layer. Each node or artificial neuron, connects to another has an associated weight and threshold. If the output of any individual node is above the specified threshold value, that node is activated, sending data to the next layer of the next layer of the network.
 
 <p align="center">
-  <img src="artificial_neural_network.jpg" width="250" height="250"/>
+  <img src="../main/Pictures/artificial_neural_network.jpg" width="250" height="250"/>
 </p>
 
 The aim of constructing ANNs is to create artificial intelligence inspired by the working of human brain, even though the latter is not yet fully understood. They are based on the computers and man's brain abilities. In a similar way, the main asset of neural network is the ability of their neurons to take part in an analysis while working simultaneously but independently from each other.Artificial neural networks are also good at analysing large sets of unlabeled, often high-dimensional data-where it may be difficult to determine a prior which questions are most relevant and rewarding to ask
@@ -18,7 +18,7 @@ The tools for machine learning with neural networks were developed long ago, mos
 A multi-layer neural network contains more than one layer of artificial neurons or nodes. They differ widely in design. It is important to note that while single-layer neural networks were useful early in the evolution of AI, the vast majority of networks used today have a multi-layer model.
 
 <p align="center">
-  <img src="multi.jpg" width="250" height="250"/>
+  <img src="../main/Pictures/multi.jpg" width="250" height="250"/>
 </p>
 
 Multi-layer neural networks can be set up in numerous ways. Typically, they have at least one iput layer, which send weighted inputs series of hidden layers, and an output layer at the end. These more sophisticated setups are also assosicated with nonlinear builds using sidmoids and other function to direct the firing or activation of artificial neurons. A fully connected multi-layer neural network is called as  Multilayer Perceptron(MLP). In above figure we have one hidden layer including one input layer and one output layer.  An MLP is a typical example of feedforward artificial neural network.
