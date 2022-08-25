@@ -71,7 +71,12 @@ Neural networks have also been actively used in many bioinformatics applications
 
 # Classification of Mushrooms
 
-A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. Mushroom is one of the fungi types food which include nutritrional content and health benefits. However, some mushroom specis are edible where as some are toxic and poisonous. 
+A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. Mushroom is one of the fungi types food which include nutritrional content and health benefits. However, some mushroom specis are edible where as some are toxic and poisonous.Nevertheless, the identification of edible and poisonous mushrooms among its existing species is a must due to its high demand for people's everyday meal and major advantage on medical science.
+
+It is very difficult to distinguish between edible and poisonous mushrooms due to their similar apperance.. Distinguishing edible from poisonous mushroom species needs meticulous care to detail; there is no single trait by which poisonous mushrooms can be recognized, nor one by which all edible mushrooms can be recognized. So, ANNs will be able to classify if a mushroom is poisonous or not using data mining as one of the approaches for obtaining computer assisted knowledge. In this, we use the training dataset that contain the mushroom images that calssify it into edible and poisonous. Here our approach aim is to classifies and predict for the class (groups) of mushrooms when submit the features of the mushrooms to different techniques of machine learning.
+
+
+ 
 
 
 
