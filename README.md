@@ -114,6 +114,6 @@ A dataset that was originally contributed to the UCI Machine Learning repository
 
 
 <p align="center">
-  <img src="../main/classify_yeast/separation_discriminator.jpg"  width="48%" />
-  <img src="../main/classify_yeast/roc.jpg"  width="48%" /> 
+  <img src="../main/classify_yeast/losses.jpg"  width="48%" />
+  <img src="../main/classify_yeast/acc.jpg"  width="48%" /> 
 </p>
