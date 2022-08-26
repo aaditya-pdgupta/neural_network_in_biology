@@ -119,3 +119,7 @@ A Multi-layer Neural Network act as a classifier to distinguish signal from back
   <img src="../main/classify_yeast/losses.jpg"  width="48%" />
   <img src="../main/classify_yeast/acc.jpg"  width="48%" /> 
 </p>
+
+### Discussion
+
+A Multi-layer Neural Network as a classifier to distinguish signal from bakground was constructed. We used the prediction power of neural network to classify whether a mushroom is edible or poisonous. Our network achieved an accuracy of over 99%. We used the just NN environment for building the network that was a feed forward  Multi-Layer Perceptron with one input layer, one hidden layer and one output layer. The average predicatibility rate was above 99% for prediction of whether the mushroom is edible or poisonous.
