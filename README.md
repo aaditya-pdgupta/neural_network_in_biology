@@ -108,7 +108,7 @@ A dataset that was originally contributed to the UCI Machine Learning repository
 ### Separation Using Machine Learning
 
 <p align="center">
-  <img src="../main/classify_yeast/losses.jpg" width="400" height="350" />
-  <img src="../main/classify_yeast/roc.jpg" width="400" height="350" /> 
+  <img src="../main/classify_yeast/losses.jpg" width="350" height="350" />
+  <img src="../main/classify_yeast/roc.jpg" width="350" height="350" /> 
 </p>
 
