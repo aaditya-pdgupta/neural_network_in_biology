@@ -107,5 +107,8 @@ A dataset that was originally contributed to the UCI Machine Learning repository
  
 ### Separation Using Machine Learning
 
-
+<p float="left">
+  <img src="../main/Pictures/losses.jpg" width="100" />
+  <img src="../main/Pictures/roc.jpg" width="100" /> 
+</p  align="middle">
 
