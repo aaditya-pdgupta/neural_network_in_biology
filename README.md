@@ -107,7 +107,7 @@ A dataset that was originally contributed to the UCI Machine Learning repository
  
 ### Separation Using Machine Learning
 
-A Multi-layer Neural Network act as a classifier to distinguish signal from background for classification of mushroom is constructed in python using tensorflow. The weights of input are also generated using random number generator in python. A Neural Network model with 16 node, 1 discriminator layers with adam optimizer and binary corresntropy used for optimization and loss calculation.
+A Multi-layer Neural Network act as a classifier to distinguish signal from background for classification of mushroom is constructed in python using tensorflow. The weights of input are also generated using random number generator in python. A Neural Network model with 16 node, 1 discriminator layers with adam optimizer and binary corresntropy used for optimization and loss calculation. The small learning avoids the overshooting. Here, fig titled Network response shows the neural network output for the signal and distribution for the training and testing sample of mushrooms. Here separation is very good which shows the accuracy is very high. Fig titled with Reciever Opertaing Curve shows the ROC curve of the neural network output. From the area under the ROC curve, it is clear that the efficiency of our neural network training   
 
 <p align="center">
   <img src="../main/classify_yeast/separation_discriminator.jpg"  width="48%" />
