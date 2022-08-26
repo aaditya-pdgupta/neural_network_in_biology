@@ -107,6 +107,8 @@ A dataset that was originally contributed to the UCI Machine Learning repository
  
 ### Separation Using Machine Learning
 
+A Multi-layer Neural Network act as a classifier to distinguish  
+
 <p align="center">
   <img src="../main/classify_yeast/separation_discriminator.jpg"  width="48%" />
   <img src="../main/classify_yeast/roc.jpg"  width="48%" /> 
