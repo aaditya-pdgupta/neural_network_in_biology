@@ -71,11 +71,21 @@ Neural networks have also been actively used in many bioinformatics applications
 
 # Classification of Mushrooms
 
+### Introduction
+
 A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. Mushroom is one of the fungi types food which include nutritrional content and health benefits. It has differnt parts such as cap, scale, gills, tubes, pores, ring, stipe, stalk, scales and volva.
 
 <p align="center">
   <img src="../main/Pictures/mushroom_pic.jpg" width="300" height="300"/>
 </p>
+
+* Gills, Pores, or Teeth: These structures appear under the mushroom's cap. They look similar to a fish's gills.
+* Ring: The ring (sometimes called the annulus) is the remaining structure of the partial veil after the gills have pushed through.
+* Stem or Stipe: The stem is the tall structure that holds the cap high above the ground.
+* Volva: The volva is the protective veil that remains after the mushroom sprouted up from the ground. As the fungus grows, it breaks through the volva.
+* Spores: Microscopic seeds acting as reproductive agents; they are usually released into the air and fall on a substrate to produce a new mushroom.
+
+### Motivation
 
 Mushroom specis can be both edible and non-edible. The non-edible are toxic and poisonous. The identification of edible and poisonous mushrooms among its existing species is a must due to its high demand for people's everyday meal and major advantage on medical science. It is very difficult to distinguish between edible and poisonous mushrooms due to their similar apperance. Distinguishing edible from poisonous mushroom species needs meticulous care to detail; there is no single trait by which poisonous mushrooms can be recognized, nor one by which all edible mushrooms can be recognized. So, ANNs will be able to classify if a mushroom is poisonous or not using data mining as one of the approaches for obtaining computer assisted knowledge. In this, we use the training dataset that contain the mushroom images that classify it into edible and poisonous. Here our approach aim is to classifies and predict for the class (groups) of mushrooms when submit the features of the mushrooms to different techniques of machine learning.
 
@@ -83,7 +93,17 @@ Mushroom specis can be both edible and non-edible. The non-edible are toxic and 
   <img src="../main/Pictures/different_types_of_mushroom.jpg" width="300" height="300"/>
 </p>
 
-A dataset that was originally contributed to the UCI Machine Learning repository nearly 30 years ago, mushroom hunting (otherwise known as "shrooming") is used to for the ANN purpose. It helps to learn which features (inputs) spell certain death and which are most palatable in this dataset of mushroom characteristics.This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy. In this dataset, we consider the cap-shape in different letter notation such as bell-b, conical-c, convex-x, flat-f, knobbed-k and sunnksen as s. We also differntiate the different features of cap surface as fibrous-f, grooves-g, scaly-y, smooth-k. Likewise we also adrressed the different feautures of cap colaor as brown-n, buff-b, cinnamon-c, gray-g, green-r, pink-p, purple-u, red-e, white-w and yellow-y. For odor we have almond-a, anise-I, creosote-c, fishy-y, foul-f, musty-m, none-n, pungent-p and spicy-s. On the basis of gill-attachement we have denoted attached-a, descending-d, free-f and notched-n. Gill-spacing is denoted as close-c, crowded-w and distant-d. In same way gill-size features are denoted as broad-b and narrow-n. Gill color for black-k, brown-n, buff-b,, chocolate-h, gary-g, green-r, orange-o, pink-p, purple-u, red-e, white-w and yellow-y. Similarly, for stalk shape feature different noatation is used such as enlarging-e and tapering-t. For different features of stalk-root we denoted bulbos-b, club-c, cup-u, equal-e, rhizomorphs-z, rooted-r and missing-?. We also have a different features under stalk-surface-below-ring which is denoted as fibrous-f, scale-y, silky-k and smooth-s. Continously for stalk-color-above-ring features we denote brown-n, buff-b, cinnamon-c, gray-g, orange-o, pink-p, red-e, white-w and yellow-y. For veil-type we denote partial-p a-and universal-u. Similarly for veil-color we denote brown-n, orange-o, white-w and yellow-y. At last for ring-number none-n, one-o and two-t. 
+### Data
+
+A dataset that was originally contributed to the UCI Machine Learning repository nearly 30 years ago, mushroom hunting (otherwise known as "shrooming") is used to for the ANN purpose. It helps to learn which features (inputs) spell certain death and which are most palatable in this dataset of mushroom characteristics.This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy. 
+
+* In this dataset, we consider the cap-shape in different letter notation such as bell-b, conical-c, convex-x, flat-f, knobbed-k and sunnksen as s. We also differntiate the different features of cap surface as fibrous-f, grooves-g, scaly-y, smooth-k. 
+* Likewise we also adrressed the different feautures of cap colaor as brown-n, buff-b, cinnamon-c, gray-g, green-r, pink-p, purple-u, red-e, white-w and yellow-y. 
+* For odor we have almond-a, anise-I, creosote-c, fishy-y, foul-f, musty-m, none-n, pungent-p and spicy-s. On the basis of gill-attachement we have denoted attached-a, descending-d, free-f and notched-n. Gill-spacing is denoted as close-c, crowded-w and distant-d. 
+* In same way gill-size features are denoted as broad-b and narrow-n. Gill color for black-k, brown-n, buff-b,, chocolate-h, gary-g, green-r, orange-o, pink-p, purple-u, red-e, white-w and yellow-y. 
+* Similarly, for stalk shape feature different noatation is used such as enlarging-e and tapering-t. For different features of stalk-root we denoted bulbos-b, club-c, cup-u, equal-e, rhizomorphs-z, rooted-r and missing-?.
+*  We also have a different features under stalk-surface-below-ring which is denoted as fibrous-f, scale-y, silky-k and smooth-s. Continously for stalk-color-above-ring features we denote brown-n, buff-b, cinnamon-c, gray-g, orange-o, pink-p, red-e, white-w and yellow-y. 
+*  For veil-type we denote partial-p a-and universal-u. Similarly for veil-color we denote brown-n, orange-o, white-w and yellow-y. At last for ring-number none-n, one-o and two-t. 
  
 
 
