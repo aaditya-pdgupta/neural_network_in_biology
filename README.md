@@ -105,7 +105,7 @@ A dataset that was originally contributed to the UCI Machine Learning repository
 *  We also have a different features under stalk-surface-below-ring which is denoted as fibrous-f, scale-y, silky-k and smooth-s. Continously for stalk-color-above-ring features we denote brown-n, buff-b, cinnamon-c, gray-g, orange-o, pink-p, red-e, white-w and yellow-y. 
 *  For veil-type, we denote partial-p a-and universal-u. Similarly for veil-color we denote brown-n, orange-o, white-w and yellow-y. At last for ring-number none-n, one-o and two-t. 
  
-
+### Separation Using Machine Learning
 
 
 
