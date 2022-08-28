@@ -73,7 +73,7 @@ Neural networks have also been actively used in many bioinformatics applications
 
 ### Introduction
 
-A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. Mushroom is one of the fungi types food which include nutritrional content and health benefits. It has differnt parts such as cap, scale, gills, tubes, pores, ring, stipe, stalk, scales and volva.
+A mushroom is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. Mushroom is one of the fungi types food which include nutritrional content and health benefits. It has different parts such as cap, scale, gills, tubes, pores, ring, stipe, stalk, scales and volva.
 
 <p align="center">
   <img src="../main/Pictures/mushroom_pic.jpg" width="300" height="300"/>
