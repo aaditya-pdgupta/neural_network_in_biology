@@ -1,3 +1,4 @@
+The preprint version of this article is published on biorxiv. [https://doi.org/10.1101/2022.08.31.505980](https://doi.org/10.1101/2022.08.31.505980)
 # Introduction
 
 Neural networks, also known as artificial neural networks (ANNs) or simulated network (SNNs) are sub-set of machine learning and are heart of deep learning algorithms. A standard neural network (NN) consists of many simple, connected processors called neuron , each producing a sequence of real valued activations. An artificial neuron recieves a signals and then processes them and can signal neurons connected to it.
